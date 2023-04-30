@@ -1,0 +1,16 @@
+created: 20230113140534741
+modified: 20230429195618145
+revision: 0
+tags: 
+title: Documentation style
+type: text/vnd.tiddlywiki
+
+* We try to avoid "you", "your", "I", "me", etc., preferring "we", "us", and "our" describing the work more like a shared journey rather than a lecture.
+
+* We try to keep very consistent in our title format, the first word is upper-case, and all others, except for ALL_CAPS abbreviations are in lower case.  Thus we use titles like "Foo bar" and not "Foo bar".
+
+* In text, we use normal sentence case, and make links with plain text, even when it would be easier to link directly to the title.  This means that, for instance, we would use `Please note that our [[documentation style|Documentation style]] uses sentence case.` and //not// `Please note that our [[Documentation style]] uses sentence case.` to make the nicer reading, "Please note that our [[documentation style|Documentation style]] uses sentence case," but still contains the appropriate links.
+
+* Use tags to describe what and where things belong.  The tagging structure automatically generates tables of content and helps link things together, so use it appropriately.  We try not to add new tags except when really necessary.
+
+* ''Keep it small''.  Tiddlywiki is very powerful, and it [[works best|https://tiddlywiki.com/#Philosophy%20of%20Tiddlers]] with small chunks of content that can be linked, tagged, and bundled together in various ways.  The [[excision tool|https://tiddlywiki.com/#Using%20Excise]] (<<icon $:/core/images/excise>>) makes it very easy to extract content from a large tiddler into a smaller one, but transclude it as needed.

@@ -1,0 +1,13 @@
+caption: Explanations
+color: #fc6
+created: 20221112161918489
+modified: 20230429190220248
+revision: 2
+tags: Overview
+title: $:/tiddox/content/overview/Explanations
+type: text/vnd.tiddlywiki
+
+''[[Explanations]]'' //clarify and illuminate// particular topics. They broaden the documentation’s coverage of a topic and provide useful background information and explanation.
+
+Explanations are a chance for the documentation to relax and step back from the software, taking a wider view, illuminating it from a higher level or even from different perspectives. You might imagine an Explanation document being read at leisure, rather than over the code.
+

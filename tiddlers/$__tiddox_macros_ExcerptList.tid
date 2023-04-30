@@ -1,0 +1,24 @@
+created: 20221128185624172
+modified: 20230429190421984
+revision: 0
+tags: $:/tags/Macro
+title: $:/tiddox/macros/ExcerptList
+type: text/vnd.tiddlywiki
+
+\define ExcerptList(filter, class="")
+<dl class="$class$">
+<$list filter="$filter$">
+<$set name="parent" value={{!!title}}>
+<div class="excerpt-item">
+<dt>{{!!title}}:</dt>
+<dd><$list filter="[all[current]get[text]splitbefore[
+
+]split[
+
+]first[]]">
+<<currentTiddler>> &nbsp; <$link to=<<parent>>>[...more]</$link>
+</$list></dd></div>
+</$set>
+</$list>
+</dl>
+\end

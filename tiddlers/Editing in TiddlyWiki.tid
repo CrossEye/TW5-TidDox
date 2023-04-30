@@ -1,0 +1,12 @@
+created: 20230113140453299
+modified: 20230123191155939
+revision: 0
+tags: 
+title: Editing in TiddlyWiki
+type: text/vnd.tiddlywiki
+
+* First of all, we want to give you credit, so if you're submitting changes, also edit the [[credits page|Credits]] to add your name.
+
+* To add new notes (called "tiddlers" by Tiddlywiki), hit the new button (<<icon $:/core/images/new-button>>) in the right sidebar to create a new note.  To edit an existing one, hit the edit button (<<icon $:/core/images/edit-button>>) in the note's own toolbar.
+
+* Once you're in edit mode, this is a fairly familiar wiki syntax with a reasonable toolbar.  ALT-P will bring up a preview.  Please refer to [[Tiddlywiki's documentation|https://tiddlywiki.com/#WikiText]] for details.

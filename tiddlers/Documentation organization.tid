@@ -1,0 +1,36 @@
+created: 20221112185926263
+modified: 20230429191053138
+revision: 16
+tags: Overview
+title: Documentation organization
+type: text/vnd.tiddlywiki
+
+<h3>Navigating</h3>
+
+You can search the content with the search widget in the right sidebar.  The [[Table of Contents|$:/tiddox/tags/TableOfContents]] is available in many places, but can most easily be found in the right sidebar's "Contents" tab.
+
+<h3>Content</h3>
+
+The bulk of this documentation is divided into four groups, as described by the [[divio documentation system|https://documentation.divio.com/]]:
+
+<br/>
+
+<table class="doc-overview">
+  <tr>
+    <td><h3>[[Tutorials]]</h3><h4>Learning-oriented</h4></td>
+    <td>Practical Steps</td>
+    <td><h3>[[How-To Guides|How-to guides]]</h3><h4>Problem-oriented</h4></td>
+  </tr>
+  <tr>
+    <td>Most useful when we're studying</td>
+    <td></td>
+    <td>Most useful when we're working</td>
+  </tr>
+  <tr>
+    <td><h4>Understanding-oriented</h4><h3>[[Explanations]]</h3></td>
+    <td>Theoretical Knowledge</td>
+    <td><h4>Information-oriented</h4><h3>[[References]]</h3></td>
+  </tr>
+</table>
+
+<<tabs "$:/tiddox/content/overview/Tutorials [[$:/tiddox/content/overview/How-to guides]] $:/tiddox/content/overview/References $:/tiddox/content/overview/Explanations" "$:/tiddox/content/overview/Tutorials" "$:/temp/tiddox/tabs/Content" "tc-vertical">>

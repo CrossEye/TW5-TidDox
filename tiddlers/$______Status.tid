@@ -1,0 +1,25 @@
+caption: Status
+created: 20221215211815574
+modified: 20230407132849811
+revision: 0
+tags: $:/tags/MoreSideBar
+title: $:/_/_/Status
+type: text/vnd.tiddlywiki
+
+''Complete <$text text={{{ [all[]!tag[TODO]!is[system]count[]] }}}/>, 
+  TODO: <$text text={{{ [tag[TODO]!is[system]count[]] }}}/>,
+  Missing: <$text text={{{ [all[missing]!is[system]count[]] }}}/>''
+
+<table>
+  <tr><th>Title</th><th>Status</th></tr>
+<$list filter="[all[tiddlers+missing]!is[system]sort[]]">
+  <tr>
+    <td><$link/></td>
+    <td>
+      <$text text={{{ [<currentTiddler>tag[TODO]then[todo]]
+                      ~[<currentTiddler>is[missing]then[missing]]
+                      ~[[✓]] }}}/>
+    </td>
+  </tr>
+</$list>
+</table>

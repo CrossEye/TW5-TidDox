@@ -1,0 +1,6 @@
+created: 20221208151609009
+list: $:/core/ui/ViewTemplate/title $:/core/ui/ViewTemplate/unfold $:/core/ui/ViewTemplate/subtitle $:/core/ui/ViewTemplate/tags $:/core/ui/ViewTemplate/classic $:/tiddox/templates/Warnings $:/core/ui/ViewTemplate/body $:/plugins/ScottSauyet/WizardNav/ViewTemplate
+modified: 20230429190644427
+revision: 1
+title: $:/tags/ViewTemplate
+type: text/vnd.tiddlywiki

@@ -1,0 +1,14 @@
+caption: TODO
+created: 20221129160937225
+modified: 20230429190752057
+revision: 0
+tags: $:/tags/MoreSideBar
+title: $:/tiddox/tools/moresidebar/TODO
+type: text/vnd.tiddlywiki
+
+__''Missing''__ (<$text text ={{{ [all[missing]!is[system]count[]] }}} />)
+<$list filter="[all[missing]!is[system]sort[]]" template="$:/core/ui/MissingTemplate"/>
+
+__''Incomplete''__ (<$text text ={{{ [tag[TODO]count[]] }}} />)
+<$list filter="[tag[TODO]]" template="$:/core/ui/MissingTemplate"/>
+

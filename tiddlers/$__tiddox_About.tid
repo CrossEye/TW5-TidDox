@@ -1,0 +1,30 @@
+caption: About (version 0.1.0)
+created: 20230326150914405
+modified: 20230430151032540
+tags: TableOfContents TODO
+title: $:/tiddox/About
+type: text/vnd.tiddlywiki
+version: 0.1.0
+
+This wiki serves as scaffolding to start TiddlyWiki-based documentation projects.
+
+!! History
+
+This grew out of several documentation projects Scott Sauyet wrote.  
+
+!! Source code
+
+The source for this project can be found at https://github.com/CrossEye/TW5-TidDox
+
+!! Credits
+
+{{$:/tiddox/Credits}}
+
+!! Technology
+
+{{Technology}}
+
+!! Version
+
+{{!!version}}
+

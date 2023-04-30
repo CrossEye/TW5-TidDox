@@ -1,0 +1,9 @@
+caption: Everything
+created: 20221122134747371
+modified: 20230429191157936
+revision: 0
+tags: $:/tags/MoreSideBar
+title: $:/tiddox/tools/moresidebar/Everything
+type: text/vnd.tiddlywiki
+
+<$list filter="[all[tiddlers+missing]!is[system]] [prefix[$:/tiddox/]]" template="$:/core/ui/ListItemTemplate"/>

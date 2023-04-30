@@ -1,0 +1,19 @@
+.doc-overview {width: 39em; background: #f8f8f8; margin: 2em auto 1em;}
+.doc-overview h3 {font-size: 250%; font-weight: bold;}
+.doc-overview tr:first-child h3 {margin-bottom: 0}
+.doc-overview tr:first-child h4 {margin: 1em 0 .5em}
+.doc-overview tr:last-child h3 {margin-top: 0}
+.doc-overview tr:last-child h4 {margin: .5em 0 1em}
+.doc-overview h4 {font-size: 125%; text; font-variant: small-caps}
+.doc-overview td:first-child {text-align: right}
+.doc-overview td:last-child {text-align: left}
+.doc-overview td {border: none}
+.doc-overview tr:first-child td:first-child {border-right: 1px solid #ccc; border-bottom: 1px solid #ccc; padding-right: 1em; background: #6f6;}
+.doc-overview tr:first-child td:last-child {border-left: 1px solid #ccc; border-bottom: 1px solid #ccc; padding-left: 1em;  background: #fcf;}
+.doc-overview tr:last-child td:first-child {border-right: 1px solid #ccc; border-top: 1px solid #ccc; padding-right: 1em; background: #fc6;}
+.doc-overview tr:last-child td:last-child {border-left: 1px solid #ccc; border-top: 1px solid #ccc; padding-left: 1em; background: #ccf;}
+.doc-overview tr:first-child td:nth-child(2),.doc-overview tr:last-child td:nth-child(2) {font-size: 80%; padding: 1em .1em 1em 0.1em; writing-mode: vertical-rl; text-orientation: mixed; background: #eee;}
+.doc-overview tr:first-child td:nth-child(2) {text-align: end; border-top: 1px solid #eee;}
+.doc-overview tr:last-child td:nth-child(2) {text-align: start; border-bottom: 1px solid #eee;}
+.doc-overview tr:nth-child(2) td {font-size: 80%; background: #eee; border: 1px solid #eee}
+.doc-overview tr:first-child td:first-child, .doc-overview tr:first-child td:last-child, .doc-overview tr:last-child td:first-child, .doc-overview tr:last-child td:last-child {height: 12em; width: 19em}

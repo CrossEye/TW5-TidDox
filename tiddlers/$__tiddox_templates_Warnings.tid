@@ -1,0 +1,12 @@
+created: 20221208150431293
+modified: 20230429190644424
+revision: 0
+tags: $:/tags/ViewTemplate
+title: $:/tiddox/templates/Warnings
+type: text/vnd.tiddlywiki
+
+<$list filter="[is[current]get[warnings]]" variable="warnings">
+<div style="background-color: #fcc; padding: .5em;">
+''Warning'': there is some instability in this area.  See the following for more details:
+  <<list-links filter:[enlist<warnings>] >>
+</div></$list>

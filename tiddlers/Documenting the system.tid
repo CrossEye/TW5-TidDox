@@ -1,0 +1,29 @@
+created: 20230112150401642
+modified: 20230429195829075
+revision: 4
+tags: Explanations TODO
+title: Documenting the system
+type: text/vnd.tiddlywiki
+
+Anyone is welcome to contribute to this documentation.
+
+The usual process would be to fork its GitLab/GitHub repository<!-- TODO: add link -->, clone our fork locally and follow the instructions in its README to get running on Node.  When we're satisfied with our changes, we commit them, push them back to our repo and raise a merge/pull request.
+
+For non-developers to whom those instructions sound like gobbledygook, an alternative technique would be to hit `CTR-SHIFT-/` (`CMD-SHIFT-/` on a Mac) to enter edit mode, then make our changes, hit the red download button in the right toolbar, and then send the resulting file to the team.  Please include a description of what was changed.
+
+
+!! Technology
+
+{{Technology}}
+
+
+!! Editing
+
+{{Editing in TiddlyWiki}}
+
+
+!! Keep in mind
+
+{{Documentation style}}
+
+

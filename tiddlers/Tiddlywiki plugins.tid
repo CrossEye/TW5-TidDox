@@ -1,0 +1,18 @@
+created: 20230123192005577
+modified: 20230308152006147
+revision: 0
+tags: 
+title: Tiddlywiki plugins
+type: text/vnd.tiddlywiki
+
+As well as the core product, and official TiddlyWiki plugins such as [[BrowserStorage|https://tiddlywiki.com/#BrowserStorage%20Plugin]], [[Highlight|https://tiddlywiki.com/#Highlight%20Plugin]], and [[Markdown|https://tiddlywiki.com/#Markdown%20Plugin]], the following plugins are also being used:
+
+* [[Mermaid-TW5|https://efurlanm.github.io/mermaid-tw5]], to add Mermaid diagrams as code
+* [[tw5-checklist|https://tgrosinger.github.io/tw5-checklist/]], to add checklists (TODO: is this actually being used?
+* [[Auto Complete|https://evidentlycube.github.io/TW5-PluginShowcase/#Auto%20Complete]] to make it easier to find names of sections to link to or include.
+* [[DetailsWidget|https://tid.li/tw5/plugins.html#DetailsWidget]] for easier hide/show of content
+* [[Relink|https://flibbles.github.io/tw5-relink/]] to allow for simpler renaming of sections
+* [[WizardNav|https://crosseye.github.io/TW5-WizardNav/]] to add previous/next footer links to sequential sections such as [[Tutorials]].
+* [[Nearby|https://crosseye.github.io/TW5-Nearby/]] to add a nearby-neighbors expandable footer
+* [[PlantUML|http://tobibeer.github.io/tw5-plugins/#plantuml]] to add PlantUML diagrams as code
+* [[Reveal|https://sukima.github.io/tiddlywiki-reveal-js/]] to add [[Reveal.js|https://revealjs.com/]]-style presentations.

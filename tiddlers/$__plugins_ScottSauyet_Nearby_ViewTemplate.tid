@@ -1,0 +1,21 @@
+created: 20221121163308395
+modified: 20230105143710818
+revision: 0
+tags: $:/tags/ViewTemplate
+title: $:/plugins/ScottSauyet/Nearby/ViewTemplate
+type: text/vnd.tiddlywiki
+
+<$list filter="[all[current]!tag[$:/tags/SkipNearby]]" variable="_">
+<$list filter="[all[current]is[tiddler]!is[system]]">
+<$list filter="[all[current]neighbors[1]]" variable="_">
+	<div class="nearby-neighbors">
+	<hr/>
+	<details>
+	<summary>Nearby</summary><$list filter=[all[current]neighbors[20]] variable="currentRecord">
+		<$link to=<<currentRecord>> class="nearbyItem" />
+	</$list>
+	</details>
+	</div>
+</$list>
+</$list>
+</$list>

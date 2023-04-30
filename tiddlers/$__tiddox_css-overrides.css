@@ -1,0 +1,49 @@
+div.tc-tiddler-frame {
+  max-width: 60em;
+  margin-left: auto;
+  margin-right: auto;
+}
+blockquote {
+  background-color: #e5e5cb;
+  padding: .5em 1em;
+}
+.doc-icon svg {
+	width: 1em;
+	height: 1em;
+    vertical-align: middle;
+}
+
+dl.compact-excerpt {
+  column-width: 200px;
+  column-rule: 1px solid #ccc;
+}
+dl.compact-excerpt div.excerpt-item {
+  break-inside: avoid-column;
+}
+dl.compact-excerpt dt {
+  color: firebrick;
+  font-weight: bold;
+}
+dl.compact-excerpt dd {
+  display: inline;
+  margin-left: 0;
+  display: inline-block;
+}
+dl.compact-excerpt dd::after {
+  content: "\A";
+  display: block;
+  margin-bottom: 1em;
+}
+
+details {
+   background-color: inherit;
+   color: inherit;
+}
+.tc-tiddler-frame .tc-titlebar svg {
+  opacity: 0;
+  transition: opacity .5s ease-in-out;
+}
+.tc-tiddler-frame:hover .tc-titlebar svg {
+  filter: alpha(opacity=100);
+  opacity: 1;
+}

@@ -1,0 +1,23 @@
+created: 20221228151322657
+modified: 20230429195405852
+revision: 0
+tags: TODO
+title: Credits
+type: text/vnd.tiddlywiki
+
+!! Content
+
+The following people have helped develop the content of this site:
+
+* [[User Name 1|https://github.com/UserName1/]]
+* [[User Name 2|https://mstdn.plus/@UserName2]]
+* [[User Name 3|mailto://UserName3@example.com]]
+
+We welcome to [[contributions|Documenting the system]] from the entire community.
+
+
+!! Technology
+
+This documentation is built and presented using <a href="https://tiddlywiki.com/">Tiddlywiki <<version>></a>, a tool for capturing and presenting complex information in a non-linear fashion.  See the [[technology|Technology]] page for more information.
+
+{{Tiddlywiki plugins}}

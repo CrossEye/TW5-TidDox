@@ -1,0 +1,16 @@
+created: 20230113140419753
+modified: 20230429201541590
+revision: 0
+tags: 
+title: Technology
+type: text/vnd.tiddlywiki
+
+This documentation is presented using [[Tiddlywiki|http://tiddlywiki.com]] (<<version>>.)  This is a powerful open-source note-taking and organization tool, something like what OneNote or Evernote offer but with much more flexibility and customizability.
+
+As well as familiar linking, tagging, and searching capabilities, it also offers a [[transclusion|https://tiddlywiki.com/#Transclusion]] mechanism to easily embed one note inside another.  Note the [[Glossary]], each of whose entries is just the first paragraphs of  a note plus a link to the full note.  This is entirely automatic, built out of all notes tagged "Glossary".
+
+This makes for an extremely powerful documentation tool.  We can notice that as well as a hierarchy from the table of contents, the notes contain many links and the tags names offer drop-downs showing everything with those tags.  The search is not perfect, but it's quite good.  We can use Mermaid and PlantUML diagrams in source form.
+
+!!Plugins
+
+{{Tiddlywiki plugins}}

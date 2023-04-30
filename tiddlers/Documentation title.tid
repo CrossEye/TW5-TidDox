@@ -1,0 +1,18 @@
+created: 20221113013516053
+modified: 20230430143301059
+revision: 1
+tags: Overview $:/tags/SkipNearby
+title: Documentation title
+type: text/vnd.tiddlywiki
+
+<details>
+<summary>How this documentation is [[organized|Documentation organization]]</summary>
+{{Documentation organization}}
+</details>
+
+{{$:/tiddox/tags/TableOfContents}}
+
+<br/><hr/>
+<$list filter="[!is[system]!has[draft.of]] +[!sort[modified]limit[1]]">
+<small>Documentation last updated <$view field="modified" format="date" template="MMM DD, YYYY @ hh12:0mm AM"/>.  Running on [[Tiddlywiki|https://tiddlywiki.com/]] <<version>>.  See the [[credits page|Credits]] for more details</small>
+</$list>
