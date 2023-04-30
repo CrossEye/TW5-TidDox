@@ -1,0 +1,44 @@
+created: 20230430220344875
+modified: 20230430220716217
+tags: TODO
+title: $:/tiddox/Overview
+type: text/vnd.tiddlywiki
+
+! Tiddox Overview
+
+This is a blank [[TiddlyWiki5|https://tiddlywiki.com/]] edition to serve as scaffolding for documentation projects.  If you're viewing this over Node, you should have editing capabilities.  If you're viewing from a single-file wiki, you can toggle the edit state with `CTRL-SHIFT-/`.  If you're in edit mode and want to keep edit mode always available, edit [[setReadOnlyOnReload|$:/tiddox/actions/setReadOnlyOnReload]] to remove the tag <<tag $:/tags/StartupAction>>
+
+This is built using the [[Divio Documentation System|https://documentation.divio.com/]], whose ideas we won't duplicate here.  But please do read them.  For now, note that, tiddlers tagged <<tag Tutorials>>, <<tag [[How-to guides]]>>, <<tag References>>, or <<tag Explanations>> will show up in the appropriate place in the table of contents.
+
+There is no attempt here to teach how to use TiddlyWiki.  Use [[its documentation|https://tiddlywiki.com]] for that.
+
+Tiddlers tagged <<tag-pill Tutorials>> have an additional behavior: they are considered tutorials, and anything tagged with //their// titles will have previous/next footers for linear navigation.  You can sort the steps by dragging the titles in the tag pill dropdown.  For example, <<tag Placeholder>> is tagged <<tag Tutorial>>, so the the four tiddlers tagged `Placeholder` form a tutorial, and have footers showing previous and next steps.  (More information can be found in the [[Wizard Nav documentation|https://crosseye.github.io/TW5-WizardNav/]].)
+
+Also, tiddlers tagged <<tag Glossary>> will show up in the [[Glossary]], with their first paragraph included and the whole tiddler linked with `[...more]`.
+
+There are three `More` sidebar tabs designed to help track your progress as you build out your documentation: `TODO` keeps track of missing tiddlers and tiddlers tagged <<tag TODO>>.  `Status` shows a table of those as well as the regular completed tiddlers.  `Everything` is a quick way to list both regular and system tiddlers for your project.
+
+Included is a macro to treat an image as an icon.  Using a custom SVG image or one of the [[built-in images|$:/tiddox/Images]] such as {{$:/core/images/star-filled}} this makes `this is <<icon $:/core/images/star-filled>> important` line up with the text like: "this is <<icon $:/core/images/star-filled>> important".
+
+
+!! Thing to change on a new project
+
+
+* Put your title in [[$:/SiteTitle]]
+* Put your subtitle in [[$:/SiteSubtitle]], or remove the text to leave it blank
+* Change the title of [[Documentation title]] to reflect your project.  Also, possibly, if the documentation has a GitHub/GitLab home, make its footer's "last updated" text a link to that source code location.
+* Change [[the download name|$:/config/SaveWikiButton/Filename]] to match your project.
+* Update the [[Credits]] page with your name and those of your collaborators.
+* Delete [[Placeholder]], which is just there to show you how the main tags are used, as well as the demo tutorial steps [[First step]], [[Second step]], [[Third step]], and [[Fourth step]].
+* Review [[Documentation style]] to make it appropriate for your project.
+* Remove this ([[Getting started]]) tiddler from [[$:/DefaultTiddlers]] and delete it.  (You can find the content if you need it again, out of the way at [[$:/tiddox/Overview]].
+
+!! Later,
+
+* When the documentation seems relatively complete, and the site is not under active development, consider removing the `More` sidebar tabs [[Status|$:/_/_/Status]], [[Everything|$:/tiddox/tools/moresidebar/Everything]], and [[TODO|$:/tiddox/tools/moresidebar/TODO]].
+
+----------
+
+! About
+
+{{$:/tiddox/About}}
