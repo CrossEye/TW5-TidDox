@@ -1,12 +1,12 @@
 created: 20230430220344875
-modified: 20230430220716217
+modified: 20231127015125960
 tags: TODO
 title: $:/tiddox/Overview
 type: text/vnd.tiddlywiki
 
 ! Tiddox Overview
 
-This is a blank [[TiddlyWiki5|https://tiddlywiki.com/]] edition to serve as scaffolding for documentation projects.  If you're viewing this over Node, you should have editing capabilities.  If you're viewing from a single-file wiki, you can toggle the edit state with `CTRL-SHIFT-/`.  If you're in edit mode and want to keep edit mode always available, edit [[setReadOnlyOnReload|$:/tiddox/actions/setReadOnlyOnReload]] to remove the tag <<tag $:/tags/StartupAction>>
+This is a blank [[TiddlyWiki5|https://tiddlywiki.com/]] edition to serve as scaffolding for documentation projects.  If you're viewing this over Node, you should have editing capabilities.  If you're viewing from a single-file wiki, you can toggle the edit state with `CTRL-SHIFT-/`, or `SHIFT-ALT-M`, depending on your keyboard layout..  If you're in edit mode and want to keep edit mode always available, edit [[setReadOnlyOnReload|$:/tiddox/actions/setReadOnlyOnReload]] to remove the tag <<tag $:/tags/StartupAction>>
 
 This is built using the [[Divio Documentation System|https://documentation.divio.com/]], whose ideas we won't duplicate here.  But please do read them.  For now, note that, tiddlers tagged <<tag Tutorials>>, <<tag [[How-to guides]]>>, <<tag References>>, or <<tag Explanations>> will show up in the appropriate place in the table of contents.
 

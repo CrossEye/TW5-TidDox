@@ -1,8 +1,8 @@
-modified: 20230430150405089
 status: complete
 title: $:/Import
 type: text/vnd.tiddlywiki
 
 The following tiddlers were imported:
 
-# [[$:/tiddox/About]]
+# [[$:/config/ShortcutInfo/toggle-reader-mode]]
+# [[$:/config/shortcuts/toggle-reader-mode]]
